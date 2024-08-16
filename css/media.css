@@ -1,0 +1,769 @@
+/* ============================ Media Query ============================  */
+
+@media screen and (max-width: 641px) {
+    /* ===================================== start MQ navbar===================================== */
+    .navbar {
+      background-color: #bc7fcd;
+      display: block;
+      position: static;
+    }
+    .navbar .nav-logo {
+      padding: 10px 20px;
+      font-size: 30px;
+      font-weight: 700;
+      color: rgb(33, 37, 41);
+      display: block;
+      margin: 0;
+    }
+  
+    .navbar .nav-menue {
+      font-size: 17px;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+      display: block;
+    }
+  
+    .navbar .nav-menue ul {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar .nav-menue .border {
+      color: #000;
+    }
+  
+    .navbar .nav-menue ul li {
+      padding: 22px 0;
+      border: 1px solid #000;
+    }
+  
+    .navbar .nav-Awsome {
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 25px;
+      color: rgb(33, 37, 41);
+      text-align: center;
+    }
+  
+    /* ===================================== end MQ navbar===================================== */
+    /* ===================================== start MQ Home===================================== */
+  
+    #Home {
+      text-align: center;
+      padding-bottom: 30px;
+      padding: 10px 40px;
+      height: 100%;
+      background-color: #ffebb2;
+      /* flex-wrap: wrap-reverse; */
+      flex-direction: column-reverse;
+    }
+  
+    #Home .home-img {
+      width: 100%;
+      margin: auto;
+      padding: 0 20px;
+      padding-top: 10px;
+    }
+  
+    #Home .home-img img {
+      width: 100%;
+    }
+  
+    #Home .home-cap {
+      width: 100%;
+      margin: auto;
+    }
+    #Home .home-cap h2 {
+      font-size: 65px;
+      padding: 5px 0;
+    }
+    #Home .home-cap button {
+      background-color: #ce1212;
+      border-radius: 5%;
+      padding: 10px;
+      margin-bottom: 10px;
+      color: #fff;
+      transition: all 1s;
+    }
+    #Home .home-cap p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      color: rgb(79, 79, 90);
+      padding: 0 10px;
+    }
+    /* ===================================== End MQ home===================================== */
+  
+    /* ===================================== start MQ chefs===================================== */
+  
+    #Chefs .chef-1 {
+      width: 100%;
+    }
+  
+    #Chefs .chef-2 {
+      width: 100%;
+    }
+  
+    #Chefs .chef-3 {
+      width: 100%;
+    }
+  
+    /* ===================================== end MQ chefs===================================== */
+  
+    /* ===================================== start MQ ===================================== */
+  
+    #Gallery .gallery-image-1 {
+      width: 100%;
+    }
+  
+    #Gallery .gallery-image-2 {
+      width: 100%;
+    }
+  
+    #Gallery .gallery-image-3 {
+      width: 100%;
+    }
+    /* ================================= */
+  
+    .contact-forme .Na {
+      width: 100%;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  
+    .contact-forme .Em {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .contact-forme .u {
+      margin-left: 0;
+    }
+  
+    .contact-forme .sub {
+      width: 100%;
+      padding: 20px;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-forme .Me {
+      width: 100%;
+      padding: 30px;
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+    .contact-forme {
+      background-color: #0000000c;
+      width: 100%;
+    }
+  
+    .contact-call .call {
+      width: 100%;
+      padding: 30px 0;
+    }
+  
+    .contact-call .call-1 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-2 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-3 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-4 {
+      background-color: #f5f5f5;
+      padding: 2px;
+      margin: 10px;
+      margin-bottom: 40px;
+    }
+  
+    /* ====================================== */
+  
+    .fotear .foatear-1 {
+      width: 100%;
+    }
+  
+    .fotear .foatear-2 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .fotear .foatear-3 {
+      width: 100%;
+      padding: 20px;
+    }
+    .fotear .foatear-2  .env{
+      width: 80%;
+    }
+  
+    .fotear .foatear-3 .m1 {
+      padding: 0 30px;
+    }
+    .fotear .foatear-2 .form {
+      width: 80%;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 768px) {
+    /* ===================================== start MQ navbar===================================== */
+  
+    .navbar {
+      background-color: #bc7fcd;
+      display: block;
+      position: static;
+    }
+    .navbar .nav-logo {
+      padding: 10px 20px;
+      font-size: 30px;
+      font-weight: 700;
+      color: rgb(33, 37, 41);
+      display: block;
+      margin: 0;
+    }
+  
+    .navbar .nav-menue {
+      font-size: 17px;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+      display: block;
+    }
+  
+    .navbar .nav-menue ul {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar .nav-menue .border {
+      color: #000;
+    }
+  
+    .navbar .nav-menue ul li {
+      padding: 22px 0;
+      border: 1px solid #000;
+    }
+  
+    .navbar .nav-Awsome {
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 25px;
+      color: rgb(33, 37, 41);
+      text-align: center;
+    }
+    /* ===================================== end MQ navbar===================================== */
+    /* ===================================== start MQ Home===================================== */
+  
+    #Home {
+      text-align: center;
+      padding-bottom: 30px;
+      padding: 10px 40px;
+      height: 100%;
+      background-color: #ffebb2;
+      flex-wrap: wrap-reverse;
+    }
+  
+    #Home .home-img {
+      width: 100%;
+      margin: auto;
+      padding: 0 20px;
+      padding-top: 10px;
+    }
+  
+    #Home .home-img img {
+      width: 100%;
+    }
+  
+    #Home .home-cap {
+      width: 100%;
+      margin: auto;
+    }
+    #Home .home-cap h2 {
+      font-size: 65px;
+      padding: 5x 0;
+    }
+    #Home .home-cap button {
+      background-color: #ce1212;
+      border-radius: 5%;
+      padding: 10px;
+      margin-bottom: 10px;
+      color: #fff;
+      transition: all 1s;
+    }
+    #Home .home-cap p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      color: rgb(79, 79, 90);
+      padding: 0 10px;
+    }
+    /* ===================================== end MQ home===================================== */
+    /* ===================================== start MQ chefs===================================== */
+  
+    #Chefs .chef-1 {
+      width: 100%;
+    }
+  
+    #Chefs .chef-2 {
+      width: 100%;
+    }
+  
+    #Chefs .chef-3 {
+      width: 100%;
+    }
+  
+    /* ===================================== End MQ chefs===================================== */
+    /* ===================================== start MQ Gallery===================================== */
+  
+    #Gallery .gallery-image-1 {
+      width: 100%;
+    }
+  
+    #Gallery .gallery-image-2 {
+      width: 100%;
+    }
+    #Gallery .gallery-image-3 {
+      width: 100%;
+    }
+  
+    /* ================================================================= */
+  
+    .contact-forme .Na {
+      width: 100%;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  
+    .contact-forme .Em {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .contact-forme .u {
+      margin-left: 0;
+    }
+  
+    .contact-forme .sub {
+      width: 100%;
+      padding: 20px;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-forme .Me {
+      width: 100%;
+      padding: 30px;
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+    .contact-forme {
+      background-color: #0000000c;
+      width: 100%;
+    }
+  
+    .contact-call .call {
+      width: 100%;
+      padding: 30px 0;
+    }
+  
+    .contact-call .call-1 {
+      background-color: #f5f5f5;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-2 {
+      background-color: #f5f5f5;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-3 {
+      background-color: #f5f5f5;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-4 {
+      background-color: #f5f5f5;
+      padding: 10px;
+      margin: 10px;
+      margin-bottom: 40px;
+    }
+    /* ======================================== */
+    .fotear .foatear-1 {
+      width: 100%;
+    }
+  
+    .fotear .foatear-2 {
+      width: 100%;
+      padding: 20px;
+    }
+    .fotear .foatear-2  .env{
+      width: 80%;
+    }
+    .fotear .foatear-3 {
+      width: 100%;
+      padding: 20px;
+    }
+    .fotear .foatear-2 .form {
+      width: 80%;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+    .fotear .foatear-3 .m1 {
+      padding: 0 30px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* ===================================== start MQ navbar===================================== */
+  
+    /* .navbar {
+      background-color: ;
+    }
+     */
+    .navbar {
+      background-color: #c4e4ff;
+      display: block;
+      position: static;
+    }
+    .navbar .nav-logo {
+      padding: 10px 20px;
+      font-size: 30px;
+      font-weight: 700;
+      color: rgb(33, 37, 41);
+      display: block;
+      margin: 0;
+    }
+  
+    .navbar .nav-menue {
+      font-size: 17px;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+      display: block;
+    }
+  
+    .navbar .nav-menue ul {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar .nav-menue .border {
+      color: #000;
+    }
+  
+    .navbar .nav-menue ul li {
+      padding: 22px 0;
+      border: 1px solid #000;
+    }
+  
+    .navbar .nav-Awsome {
+      font-size: 25px;
+      font-weight: 900;
+      line-height: 25px;
+      color: rgb(33, 37, 41);
+      text-align: center;
+    }
+  
+    /* ===================================== end MQ navbar===================================== */
+    /* ===================================== start MQ Home===================================== */
+  
+    #Home {
+      text-align: center;
+      padding-bottom: 30px;
+      padding: 50px;
+      height: 100%;
+      background-color: #d2006260;
+      flex-wrap: wrap-reverse;
+    }
+  
+    #Home .home-img {
+      width: 100%;
+      margin: auto;
+      padding-top: 40px;
+    }
+  
+    #Home .home-img img {
+      width: 100%;
+    }
+  
+    #Home .home-cap {
+      width: 100%;
+      margin: auto;
+    }
+    #Home .home-cap h2 {
+      font-size: 65px;
+      padding: 5px 0;
+    }
+    #Home .home-cap button {
+      background-color: #ce1212;
+      border-radius: 5%;
+      padding: 10px;
+      margin-bottom: 10px;
+      color: #fff;
+      transition: all 1s;
+    }
+    #Home .home-cap p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      color: rgb(79, 79, 90);
+      padding: 0 10px;
+    }
+    /* ===================================== start MQ navbar ===================================== */
+    /* ===================================== start MQ chefs ===================================== */
+  
+    #Chefs .chef-1 {
+      width: 40%;
+    }
+  
+    #Chefs .chef-2 {
+      width: 40%;
+    }
+  
+    #Chefs .chef-3 {
+      width: 40%;
+    }
+  
+    #Gallery .gallery-image-1 {
+      width: 45%;
+    }
+  
+    #Gallery .gallery-image-2 {
+      width: 45%;
+    }
+    #Gallery .gallery-image-3 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #Gallery .gallery-image-3 .image-5 {
+      width: 50%;
+    }
+  
+    #Gallery .gallery-image-3 .image-6 {
+      width: 50%;
+    }
+    #Gallery .gallery-image-3 .image-7 {
+      width: 50%;
+    }
+    .fotear .foatear-1 {
+      width: 100%;
+    }
+  
+    .fotear .foatear-2 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .fotear .foatear-3 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .fotear .foatear-2  .env{
+      width: 70%;
+    }
+    .fotear .foatear-2 .form {
+      width: 70%;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+    .fotear .foatear-3 .m1 {
+      padding: 0 30px;
+    }
+  
+    /* ===================================== End MQ chefs===================================== */
+  
+    .contact-forme .Na {
+      width: 100%;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  
+    .contact-forme .Em {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .contact-forme .u {
+      margin-left: 0;
+    }
+  
+    .contact-forme .sub {
+      width: 100%;
+      padding: 20px;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+  
+    .contact-forme .Me {
+      width: 100%;
+      padding: 30px;
+      margin: 0px;
+      margin-bottom: 30px;
+    }
+    .contact-forme {
+      background-color: #0000000c;
+      width: 100%;
+    }
+  
+    .contact-call .call {
+      width: 100%;
+      padding: 30px 0;
+    }
+  
+    .contact-call .call-1 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-2 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-3 {
+      background-color: #f5f5f5;
+      padding: 5px;
+      margin: 10px;
+    }
+  
+    .contact-call .call-4 {
+      background-color: #f5f5f5;
+      padding: 2px;
+      margin: 10px;
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1250px) {
+    #Chefs .chef-1 {
+      width: 40%;
+    }
+  
+    #Chefs .chef-2 {
+      width: 40%;
+    }
+  
+    #Chefs .chef-3 {
+      width: 40%;
+    }
+    /* .fotear .foatear-1 {
+      width: 100%;
+    }
+  
+    .fotear .foatear-2 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .fotear .foatear-3 {
+      width: 100%;
+      padding: 20px;
+    }
+    .fotear .foatear-2 .form {
+      width: 80%;
+      margin-top: 10px;
+      padding: 10px 0;
+    }
+    .fotear .foatear-3 .m1{
+      padding: 0 30px;
+    } */
+  
+    #Gallery .gallery-image-1 {
+      width: 45%;
+    }
+  
+    #Gallery .gallery-image-2 {
+      width: 45%;
+    }
+    #Gallery .gallery-image-3 {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    #Gallery .gallery-image-3 .image-5 {
+      width: 50%;
+    }
+  
+    #Gallery .gallery-image-3 .image-6 {
+      width: 50%;
+    }
+    #Gallery .gallery-image-3 .image-7 {
+      width: 50%;
+    }
+  
+    .fotear .foatear-1 {
+      width: 60%;
+      order: -2;
+    }
+  
+   
+  
+    .fotear .foatear-3 {
+      width: 40%;
+      padding: 20px;
+      order: -1;
+    }
+  
+    .fotear .foatear-2 {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .fotear .foatear-1 i {
+      padding: 50px;
+      cursor: pointer;
+    }
+    .fotear .foatear-1 h3::after {
+      content: "";
+      width: 500px;
+      height: 2px;
+      background-color: #5a5a5a;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 10px 0;
+    }
+  
+    /* .fotear .foatear-2 .form {
+      width: 72%;
+      margin-top: 10px;
+      padding: 10px 0;
+    } */
+    .fotear .foatear-3 .m1 {
+      padding: 0 30px;
+    }
+    .fotear .foatear-2 .env {
+      width: 80%;
+    }
+    
+    .fotear .foatear-2 .form {
+      width: 13%;
+      display: inline-block;
+      color: #fff;
+      border: 5px solid rgba(255, 0, 0, 0.715);
+      padding: 4px;
+  
+    }
+  }
